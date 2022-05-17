@@ -24,7 +24,7 @@ That's all. Here we pass Program Main(string[] artgs) parameters.
 
 When everything is set-up and we know which entity we need to seed, go to the application start-up project root and open terminal. In console we write following code:
 
-> `dotnet run --seed entity1 entity2...
+> `dotnet run --seed entity1 entity2...`
 
 Here we write down those entity names we want to seed. Entity names are not case-sensitive. This creates Seed folder in root project, which has 2 sub-folders: **Migrations** and **Snapshot**. 
 
