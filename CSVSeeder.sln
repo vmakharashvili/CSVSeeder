@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSVSeeder.API", "CSVSeeder.API\CSVSeeder.API.csproj", "{43997EC3-88C8-4AB2-B0CD-8A59D1CAA1B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSVSeeder", "CSVSeeder\CSVSeeder.csproj", "{15249EF6-EF44-4C43-97C7-21BC42A17216}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43997EC3-88C8-4AB2-B0CD-8A59D1CAA1B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43997EC3-88C8-4AB2-B0CD-8A59D1CAA1B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43997EC3-88C8-4AB2-B0CD-8A59D1CAA1B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43997EC3-88C8-4AB2-B0CD-8A59D1CAA1B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15249EF6-EF44-4C43-97C7-21BC42A17216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15249EF6-EF44-4C43-97C7-21BC42A17216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15249EF6-EF44-4C43-97C7-21BC42A17216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15249EF6-EF44-4C43-97C7-21BC42A17216}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D673EAC-BF3E-4945-A5C2-41809642EB75}
+	EndGlobalSection
+EndGlobal
