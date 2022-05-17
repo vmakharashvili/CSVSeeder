@@ -50,6 +50,8 @@ public static class SeederExtension
             {
                 SnapshotSynchronization.SynchronizeSnapshot(context, snapshotFiles);
                 SqlHelpers.AddNewSeederHistory(connectionString, snapShotMigrationInfo);
+                var fileIndex = Array.IndexOf(files, $"{DirectoryConstants.Migrations}\\{snapShotMigrationInfo}");
+                files = files[(fileIndex + 1)..];
             }
             if (latestSeederHistoryName != null)
             {

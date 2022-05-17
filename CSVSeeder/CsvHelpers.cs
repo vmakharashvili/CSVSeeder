@@ -156,6 +156,10 @@ internal class CsvHelpers
             while (!parser.EndOfData)
             {
                 line = parser.ReadFields();
+                if(line?[0] == "Previous Version Info:")
+                {
+                    break;
+                }
                 if (line?.Length > 0)
                 {
                     logger.LogInformation("Reading Seeder Migration file: {line}", String.Join(";", line));
